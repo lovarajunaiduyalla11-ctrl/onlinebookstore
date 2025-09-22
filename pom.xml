@@ -76,12 +76,13 @@
     <!-- ✅ Add this section for Nexus deployment -->
     <distributionManagement>
         <repository>
-            <id>maven-releases</id>
-            <url>http://15.206.93.200:1212/repository/maven-releases/</url>
+            <id>nexus-releases</id>
+            <url>http://15.206.153.191:1212/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://15.206.93.200:1212/repository/maven-snapshots/</url>
+            <id>nexus-snapshots</id>
+            <url>http://15.206.153.191:1212/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
+
